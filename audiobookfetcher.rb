@@ -2,11 +2,11 @@ class Audiobookfetcher < Formula
   desc "Retrieves audio books from akniga.org"
   homepage "https://github.com/vovasty/AudioBookFetcher"
   url "https://github.com/vovasty/AudioBookFetcher.git",
-    tag:      "0.4.3",
-    revision: "bb1fc485072b6fe193fa6e6ff94c12022d88a0f8"
+    tag:      "0.4.4",
+    revision: "63ede18593c8e8a0df8d987598c5d3fbeb6b7a4e"
   license "MIT"
-  version "0.4.3"
-  sha256 "e06d809e67846d9d33df11658b82adf53a1395ede3ad6e7588764b6b49e23d5c"
+  version "0.4.4"
+  sha256 "e06d809e67846d9d33df11658b82adf53a1395ede3ad6e7588764b6b49e23d5d"
 
   depends_on xcode: ["15.0", :build]
   depends_on "ffmpeg"
