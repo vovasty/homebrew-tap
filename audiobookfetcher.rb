@@ -5,7 +5,7 @@ class Audiobookfetcher < Formula
     tag:      "0.5.0",
     revision: "3691a48029239b872e6a8a4fde71a09f7ab40f10"
   license "MIT"
-  version "0.4.7"
+  version "0.5.0"
   sha256 "a06d809e67846d9d33df12658b82adf53a1395ede3ad6e7588764b6b49e23d1e"
 
   depends_on xcode: ["15.0", :build]
